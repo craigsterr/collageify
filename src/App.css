@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: SpotiFont;
+  src: url(../public/GothamBold.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: SpotiFontDefault;
+  src: url(../public/GothamMedium.ttf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  font-family: SpotiFontDefault;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: rgb(242, 255, 234);
+  min-height: 200vh;
+}
+
+.header {
+  background-color: rgb(219, 255, 195);
+  width: 100%;
+  height: 5rem;
+  position: fixed;
+  margin-top: -7rem;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.33);
+  display: block;
+}
+
+.header h1 {
+  margin: 0.7rem 0.7rem;
+  justify-content: flex-start;
+  color: rgb(254, 255, 240);
+  font-size: 2rem;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.33);
+  font-family: SpotiFont;
+  background-color: rgb(48, 80, 50);
+  max-width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+.header h2 {
+  justify-content: flex-end;
+}
+
+.square-container {
+  margin-top: 7rem;
+  background-color: rgb(134, 211, 134);
+  width: 60em;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+img {
+  size: 100px;
+}
+
+.square-container h1 {
+  color: rgb(254, 255, 240);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.33);
+  font-family: SpotiFont;
+  background-color: rgb(48, 80, 50);
+  max-width: fit-content;
+  margin: 2rem auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.33);
 }
 
-.App-link {
-  color: #61dafb;
+.login-container {
+  background-color: rgb(87, 162, 87);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 15px;
+  row-gap: 5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.33);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-container input {
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  outline: none;
+}
+
+.login-button {
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 60%;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.descriptions {
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+}
+
+.descriptions h2 {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+  font-size: 50px;
+}
+
+.descriptions p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
 }
