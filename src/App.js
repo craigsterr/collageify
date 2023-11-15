@@ -12,13 +12,14 @@ function App() {
       </div>
       <div className='square-container'>
         <h1>Collageify!</h1>
-        <div className='login-container'>
+        <button type="submit" className='login-button'>LOGIN WITH SPOTIFY</button>
+        {/* <div className='login-container'>
           <label>Username</label>
           <input type="text" placeholder="Enter Username" className="username" required/>
           <label>Password</label>
           <input type="text" placeholder="Enter Password" className="password" required/>
-          <button type="submit" className='login-button'>Login</button>
-        </div>
+          
+        </div> */}
       </div>
       <div className='descriptions'>
         <h2>Feature 1</h2>
