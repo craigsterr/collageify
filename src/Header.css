@@ -1,0 +1,26 @@
+.header {
+    background-color: rgb(219, 255, 195);
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    margin-top: -7rem;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.33);
+    display: block;
+  }
+  
+  .header h1 {
+    margin: 0.7rem 0.7rem;
+    justify-content: flex-start;
+    color: rgb(254, 255, 240);
+    font-size: 2rem;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.33);
+    font-family: SpotiFont;
+    background-color: rgb(48, 80, 50);
+    max-width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .header h2 {
+    justify-content: flex-end;
+  }

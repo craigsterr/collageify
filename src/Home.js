@@ -3,9 +3,6 @@ import './Home.css'
 export const Home = () => {
     return (
         <div className="App">
-          <div className='header'>
-            <h1>Collageify!</h1>
-          </div>
           <div className='square-container'>
             <h1>Collageify!</h1>
             <button type="submit" className='login-button'>LOGIN WITH SPOTIFY</button>
