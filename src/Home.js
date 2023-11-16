@@ -5,7 +5,7 @@ export const Home = () => {
         <div className="App">
           <div className='square-container'>
             <h1>Collageify!</h1>
-            <button type="submit" className='login-button'>LOGIN WITH SPOTIFY</button>
+            <button type="submit" className='login-button'>spotify login</button>
             {/* <div className='login-container'>
               <label>Username</label>
               <input type="text" placeholder="Enter Username" className="username" required/>
@@ -14,20 +14,14 @@ export const Home = () => {
             </div> */}
           </div>
           <div className='descriptions'>
-            <h2>Feature 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-               consequat.
+            <h2>User Interaction 1</h2>
+            <p> Use the login with spotify button to get authentication of spotify account.
             </p>
-            <h2>Feature 2</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-               consequat.
+            <h2>User Interaction 2</h2>
+            <p> Once logged into spotify, you may choose one of your own playlists to make a collage out of. 
             </p>
-            <h2>Feature 3</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-               consequat.
+            <h2>User Interaction 3</h2>
+            <p>Once logged into spotify, you may search existing public playlists and make a collage out that.
             </p>
           </div>
         </div>
