@@ -5,7 +5,8 @@
     position: fixed;
     margin-top: -7rem;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.33);
-    display: block;
+    display: flex;
+    justify-content: space-between;
   }
   
   .header h1 {
@@ -21,6 +22,16 @@
     border-radius: 10px;
   }
   
-  .header h2 {
-    justify-content: flex-end;
-  }
+.navigation {
+  list-style: none;
+}
+
+.navigation li {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.navigation li a {
+  padding: 1rem;
+  text-decoration: none;
+}

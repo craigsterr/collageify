@@ -1,0 +1,27 @@
+.collage img {
+    padding: 3rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.element1 {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.search h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.collage-button {
+    height: 3rem;
+}
+
+.follow-button {
+    height: 3rem;
+}
