@@ -1,8 +1,10 @@
 import './Select.css'
+import { Header } from './Header';
 
 export const Select = () => {
     return (
         <div className='select'>
+            <Header/>
             <div class="search">
                 <label>PUBLIC PLAYLIST SEARCH</label>
                 <input type="text" placeholder="Find a public playlist..." className="username" required/>

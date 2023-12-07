@@ -1,16 +1,15 @@
 import './App.css';
 import { Home } from './Home';
 import { Select } from './Select';
-import { Header } from './Header';
+
 import { Collage } from './Collage';
-import { Test } from './Test';
+import { Login } from './Login';
 
 import {Route, Routes} from 'react-router-dom' ;
 
 function App() {
   return (
     <div className="App">
-      <Header/>
       <Routes>
         <Route path="/" element={
             <Home/>
@@ -20,6 +19,9 @@ function App() {
         }/>
         <Route path="/collage" element={
             <Collage/>
+        }/>
+        <Route path="/login" element={
+            <Login/>
         }/>
       </Routes>
     </div>

@@ -1,9 +1,11 @@
 import './Collage.css'
 import placeholder from'./placeholder.jpeg';
+import { Header } from './Header';
 
 export const Collage = () => {
     return (
         <div className='collage'>
+            <Header/>
             <div className='search'>
                 <h1>PLAYLIST NAME</h1>
                 <button type="submit" className='collage-button'>SET COLLAGE AS PLAYLIST IMAGE</button>

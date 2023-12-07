@@ -1,19 +1,13 @@
 import './Home.css'
-import { Header } from './Header';
+import { HeaderSignedOut } from './HeaderSignedOut';
 
-export const Home = () => {
+export const Login = () => {
     return (
         <div className="App">
-          <Header/>
+        <HeaderSignedOut/>
           <div className='square-container'>
             <h1>Collageify!</h1>
             <button type="submit" className='login-button'>LOGIN WITH SPOTIFY</button>
-            {/* <div className='login-container'>
-              <label>Username</label>
-              <input type="text" placeholder="Enter Username" className="username" required/>
-              <label>Password</label>
-              <input type="text" placeholder="Enter Password" className="password" required/>
-            </div> */}
           </div>
           <div className='descriptions'>
             <h2>Feature 1</h2>
