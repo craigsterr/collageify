@@ -53,6 +53,30 @@ body {
   border-radius: 10px;
 }
 
+.square-container h2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 33rem;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(177, 103, 0);
+  background-color: rgb(189, 255, 174);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.square-container p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 25rem;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(88, 88, 73);
+  background-color: rgba(189, 255, 174, 0.467);
+  padding: 10px;
+  border-radius: 20px;
+}
+
 .login-container {
   background-color: rgb(87, 162, 87);
   display: flex;

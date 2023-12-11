@@ -7,10 +7,8 @@ export const Home = () => {
           <Header/>
           <div className='square-container'>
             <h1>Collageify!</h1>
-            <button type="submit" className='login-button'>
-              <img src={require('./img/Spotify_Logo.png')} alt='Spotify Login' className='spotify-logo'/>
-              <div className='button-text'>LOGIN WITH SPOTIFY</div>
-            </button>
+            <h2>You are successfully logged in!</h2>
+            <p>Welcome to Collageify! Your one stop shop for custom Spotify collages!</p>
           </div>
           <div className='descriptions'>
             <h2>Connect with Spotify!</h2>
