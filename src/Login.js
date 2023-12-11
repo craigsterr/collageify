@@ -7,23 +7,20 @@ export const Login = () => {
         <HeaderSignedOut/>
           <div className='square-container'>
             <h1>Collageify!</h1>
-            <button type="submit" className='login-button'>LOGIN WITH SPOTIFY</button>
+            <button type="submit" className='login-button'>
+              <img src={require('./img/Spotify_Logo.png')} alt='Spotify Login' className='spotify-logo'/>
+              <div className='button-text'>LOGIN WITH SPOTIFY</div>
+            </button>
           </div>
           <div className='descriptions'>
-            <h2>Feature 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-               consequat.
+          <h2>Connect with Spotify!</h2>
+            <p>Login with the Spotify button above to seamlessly authenticate an already existing Spotify account!
             </p>
-            <h2>Feature 2</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-               consequat.
+            <h2>Create Your Own Collage!</h2>
+            <p>Once you're logged into Spotify, choose any one of your own Spotify playlists to make a collage out of!
             </p>
-            <h2>Feature 3</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-               consequat.
+            <h2>Discover Public Playlists on Spotify!</h2>
+            <p>Spend your time searching existing public playlists and make your very own collages!
             </p>
           </div>
         </div>
