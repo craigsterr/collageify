@@ -1,17 +1,3 @@
-@font-face {
-  font-family: SpotiFont;
-  src: url(../public/GothamBold.ttf);
-}
-
-@font-face {
-  font-family: SpotiFontDefault;
-  src: url(../public/GothamMedium.ttf);
-}
-
-* {
-  font-family: SpotiFontDefault;
-}
-
 button, input[type="submit"], input[type="reset"] {
 	background: none;
 	color: inherit;
@@ -48,7 +34,6 @@ body {
   display: flex;
   justify-content: center;
   font-size: 3rem;
-  font-family: SpotiFont;
   background-color: rgb(48, 80, 50);
   max-width: fit-content;
   margin: 2rem auto;
