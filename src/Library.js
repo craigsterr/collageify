@@ -18,6 +18,8 @@ export const Library = () => {
                 <img className='collage1' src={placeholder} alt=""/>
                 <img className='collage1' src={placeholder} alt=""/>
                 <img className='collage1' src={placeholder} alt=""/>
+                <img className='collage1' src={placeholder} alt=""/>
+                <img className='collage1' src={placeholder} alt=""/>
             </div>
         </div>
     )

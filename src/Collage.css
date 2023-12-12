@@ -1,10 +1,11 @@
-
-.collage img {
-    padding: 3rem;
+.img-container img {
     width: 20rem;
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    background-color: rgb(219, 255, 195);
+    padding: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.33);
 }
 
 .element1 {
@@ -20,6 +21,7 @@
 }
 
 .button-container {
+    margin-top: 1rem;
     display: flex;
     margin-left: auto;
     margin-right: auto;

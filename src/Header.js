@@ -10,6 +10,7 @@ export const Header = () => {
                     <li><a href="/select">Select</a></li>
                     <li><a href="/collage">Collage</a></li>
                     <li><a href="/library">Library</a></li>
+                    <li><a href="/login">Sign Out</a></li>
                 </ul>
             </div>
             <div className='white-space'/>

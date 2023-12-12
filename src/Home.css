@@ -129,7 +129,7 @@ body {
 }
 
 .common-button {
-  background-color: rgb(96, 175, 96);
+  background-color: rgb(255, 241, 177);
   cursor: pointer;
   width: 15rem;
   height: 5rem;
@@ -139,15 +139,16 @@ body {
   justify-content: center;
   align-items: center;
   transition: 0.5s;
+  border: 0.1rem solid rgb(184, 182, 126);
 }
 
 .common-button:hover {
-  background-color: rgb(105, 193, 105);
+  background-color: rgb(255, 172, 125);
   transition: 0.5s;
 }
 
 .common-button:active {
-  background-color: rgb(63, 134, 132);
+  background-color: rgb(211, 149, 128);
   transition: 0.1s;
 }
 

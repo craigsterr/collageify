@@ -8,13 +8,14 @@ export const Collage = () => {
             <Header/>
             <div className='search'>
                 <h1 className='title'>PLAYLIST NAME</h1>
+                <div className='img-container'>
+                    <img className='placeholder1' src={placeholder} alt=""/>
+                </div>
                 <div className='button-container'>
                     <button type="submit" className='common-button'><span>SET COLLAGE AS PLAYLIST IMAGE</span></button>
                     <button type="submit" className='common-button'><span>FOLLOW PLAYLIST</span></button>
                 </div>
-                
             </div>
-            <img className='placeholder1' src={placeholder} alt=""/>
         </div>
     )
 }
