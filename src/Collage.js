@@ -7,9 +7,12 @@ export const Collage = () => {
         <div className='collage'>
             <Header/>
             <div className='search'>
-                <h1>PLAYLIST NAME</h1>
-                <button type="submit" className='collage-button'>SET COLLAGE AS PLAYLIST IMAGE</button>
-                <button type="submit" className='follow-button'>FOLLOW PLAYLIST</button>
+                <h1 className='title'>PLAYLIST NAME</h1>
+                <div className='button-container'>
+                    <button type="submit" className='common-button'><span>SET COLLAGE AS PLAYLIST IMAGE</span></button>
+                    <button type="submit" className='common-button'><span>FOLLOW PLAYLIST</span></button>
+                </div>
+                
             </div>
             <img className='placeholder1' src={placeholder} alt=""/>
         </div>

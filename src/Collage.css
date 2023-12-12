@@ -1,3 +1,4 @@
+
 .collage img {
     padding: 3rem;
     width: 20rem;
@@ -18,10 +19,13 @@
     font-size: 3rem;
 }
 
-.collage-button {
-    height: 3rem;
+.button-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
 }
 
-.follow-button {
-    height: 3rem;
+.button-container button {
+    margin-left: 1rem;
 }

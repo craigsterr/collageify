@@ -24,11 +24,14 @@ button, input[type="submit"], input[type="reset"] {
 
 body {
   background-color: rgb(242, 255, 234);
-  min-height: 200vh;
+  min-height: 150vh;
+}
+
+.white-space {
+  height: 7rem;
 }
 
 .square-container {
-  margin-top: 7rem;
   background-color: rgb(134, 211, 134);
   width: 45em;
   height: fit-content;
@@ -123,6 +126,34 @@ body {
   color: yellow;
   transition: 0.25s;
   text-shadow:0.1rem 0.1rem 2rem yellow;
+}
+
+.common-button {
+  background-color: rgb(96, 175, 96);
+  cursor: pointer;
+  width: 15rem;
+  height: 5rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.common-button:hover {
+  background-color: rgb(105, 193, 105);
+  transition: 0.5s;
+}
+
+.common-button:active {
+  background-color: rgb(63, 134, 132);
+  transition: 0.1s;
+}
+
+.common-button span {
+  color: rgba(0, 0, 0, 0.784);
+  font-size: 1rem;
 }
 
 .descriptions {

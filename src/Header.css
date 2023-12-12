@@ -1,26 +1,25 @@
 .header {
-    background-color: rgb(219, 255, 195);
-    width: 100%;
-    height: 5rem;
-    position: fixed;
-    margin-top: -7rem;
-    box-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.33);
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .header h1 {
-    margin: 0.7rem 0.7rem;
-    justify-content: flex-start;
-    color: rgb(254, 255, 240);
-    font-size: 2rem;
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.33);
-    font-family: SpotiFont;
-    background-color: rgb(48, 80, 50);
-    max-width: fit-content;
-    padding: 0.5rem;
-    border-radius: 0.75rem;
-  }
+  background-color: rgb(219, 255, 195);
+  width: 100%;
+  height: 5rem;
+  position: fixed;
+  box-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.33);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  margin: 0.7rem 0.7rem;
+  justify-content: flex-start;
+  color: rgb(254, 255, 240);
+  font-size: 2rem;
+  text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.33);
+  font-family: SpotiFont;
+  background-color: rgb(48, 80, 50);
+  max-width: fit-content;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+}
   
 .navigation {
   list-style: none;
