@@ -35,9 +35,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 2rem;
-  border-radius: 15px;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.33);
-  padding-top: 0.5px;
+  border-radius: 2rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.33);
+  padding-top: 0.25em;
 }
 
 .square-container h1 {
@@ -49,32 +49,32 @@ body {
   background-color: rgb(48, 80, 50);
   max-width: fit-content;
   margin: 2rem auto;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .square-container h2 {
   margin-left: auto;
   margin-right: auto;
   max-width: 33rem;
-  font-size: 30px;
+  font-size: 2rem;
   text-align: center;
   color: rgb(177, 103, 0);
   background-color: rgb(189, 255, 174);
-  padding: 10px;
-  border-radius: 20px;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .square-container p {
   margin-left: auto;
   margin-right: auto;
   max-width: 25rem;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
   color: rgb(88, 88, 73);
   background-color: rgba(189, 255, 174, 0.467);
-  padding: 10px;
-  border-radius: 20px;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .login-container {
@@ -85,26 +85,19 @@ body {
   padding: 1rem;
   width: 60%;
   margin: 0 auto;
-  border-radius: 15px;
-  row-gap: 5px;
-}
-
-.login-container input {
-  border-radius: 10px;
-  border: none;
-  height: 50px;
-  outline: none;
+  border-radius: 1rem;
+  row-gap: 0.25rem;
 }
 
 .login-button {
   background-color: rgb(18, 41, 26);
   cursor: pointer;
   margin: 0 auto;
-  margin-top: 15px;
+  margin-top: 1.5rem;
   width: 27rem;
   height: 7rem;
-  border-radius: 100px;
-  font-size: 20px;
+  border-radius: 10rem;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,13 +116,13 @@ body {
 
 .login-button .button-text {
   color: aliceblue;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 .login-button:hover .button-text {
   color: yellow;
   transition: 0.25s;
-  text-shadow:1px 1px 20px yellow;
+  text-shadow:0.1rem 0.1rem 2rem yellow;
 }
 
 .descriptions {
@@ -145,13 +138,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 30rem;
-  font-size: 50px;
+  font-size: 3rem;
   text-align: center;
 }
 
 .descriptions p {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   text-align: center;
 }
 

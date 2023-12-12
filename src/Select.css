@@ -8,9 +8,9 @@
     justify-content: center;
     flex-direction: column;
     width: 30rem;
-    row-gap: 10px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.33);
+    row-gap: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.33);
 }
 .search input {
     height: 3rem;
@@ -34,8 +34,8 @@
     flex-direction: ROW;
     width: 20rem;
     column-gap: 1REM;
-    border-radius: 15px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.33);
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.33);
 }
 
 .choose button {
