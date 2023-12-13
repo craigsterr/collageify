@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={
+        <Route path="/home" element={
             <Home/>
         }/>
         <Route path="/select" element={
@@ -22,7 +22,7 @@ function App() {
         <Route path="/collage" element={
             <Collage/>
         }/>
-        <Route path="/login" element={
+        <Route path="/" element={
             <Login/>
         }/>
         <Route path="/library" element={

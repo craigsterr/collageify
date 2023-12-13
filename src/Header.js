@@ -6,11 +6,11 @@ export const Header = () => {
             <div className='header'>
                 <h1>Collageify!</h1>
                 <ul className='navigation'>
-                    <li><a href="/">Home</a></li>
+                    <li><a href="/home">Home</a></li>
                     <li><a href="/select">Select</a></li>
                     <li><a href="/collage">Collage</a></li>
                     <li><a href="/library">Library</a></li>
-                    <li><a href="/login">Sign Out</a></li>
+                    <li><a href="/">Sign Out</a></li>
                 </ul>
             </div>
             <div className='white-space'/>
